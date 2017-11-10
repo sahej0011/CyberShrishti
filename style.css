@@ -1,0 +1,575 @@
+body {overflow-x: hidden;}
+
+#home{
+	
+	 background-image: url('./images/hacking.jpg');
+     height: 100vh;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+	 background-attachment: fixed;
+	 max-height: 900px;
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+
+@media (max-width: 992px) {
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+}
+
+.navbar-brand{
+	font-size:32px;
+	color:white;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+
+#slide h3{
+	text-shadow: 0px 0px 20px #1abc9c;
+	text-align:center;
+	 padding-top:15px;
+	 font-size:36px; 
+	 color:ghostwhite;
+	 font-family: 'Encode Sans Condensed', sans-serif;
+	 }
+#slide p{
+	text-align: center;
+	font-size:20px; 
+	color:blue;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	}
+#slide p strong{
+	color:darkgreen;
+}
+
+/*height and width for small screen less than 480px*/
+#slide {
+	
+	opacity:0.9;
+	height:115px;
+	width:300px;
+}
+
+ul{
+	list-style: none;
+		font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+
+.fa{
+	
+   
+}
+/*fade and delay effect on font-awesome*/
+.fa-users{
+	border: 2px solid white;
+   border-radius:60px;
+   color: white;
+   padding:10px;
+   margin:10px;
+	margin-top:180px;
+	background-color:#34495e;
+	-webkit-animation: 2.5s ease 0s normal forwards 1 fadein;
+    animation: 2.5s ease 0s normal forwards 1 fadein;
+}
+
+.fa-gavel{
+	border: 2px solid white;
+   border-radius:60px;
+   color: white;
+   padding:10px;
+   margin:10px;
+	background-color: #7f8c8d;
+	-webkit-animation: 2s ease 0s normal forwards 1 fadein;
+    animation: 2s ease 0s normal forwards 1 fadein;
+}
+
+.fa-handshake-o{
+	border: 2px solid white;
+   border-radius:60px;
+   color: white;
+   padding:10px;
+   margin:10px;
+	background-color:#e74c3c;
+	-webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+
+.fa1{
+	color: antiquewhite;
+	font-weight:800;
+	-webkit-animation: 3.3s ease 0s normal forwards 1 fadein;
+    animation: 3.3s ease 0s normal forwards 1 fadein;
+}
+
+.fa2{
+	color:antiquewhite;
+	font-weight:800;
+	-webkit-animation: 3.8s ease 0s normal forwards 1 fadein;
+    animation: 3.8s ease 0s normal forwards 1 fadein;
+}
+
+.fa3{
+	color: antiquewhite;
+	font-weight:800;
+   	-webkit-animation: 4.2s ease 0s normal forwards 1 fadein;
+    animation: 4.2s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+li>strong{
+	font-size:16px; 
+}
+
+
+.title{
+  font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+
+.fa-laptop{
+  border: 2px solid #7f8c8d;
+   border-radius:70px;
+   background-color:#34495e;
+   color: white;
+   font-size:50px;
+   padding:15px;
+
+}
+.laptop{
+	color: #34495e;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:20px;
+	font-weight: 800;
+}
+.fa-university{
+
+  border: 2px solid #7f8c8d;
+   border-radius:90px;
+   background-color:#16a085;
+   color: white;
+   font-size:60px;
+   padding:15px;
+}
+
+.university{
+	color: #16a085;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:20px;
+	font-weight: 800;
+	
+}
+.fa-bandcamp{
+
+  border: 2px solid #7f8c8d;
+   border-radius:70px;
+   background-color:#2980b9;
+   color: white;
+   font-size:50px;
+   padding:15px;
+}
+
+.bandcamp{
+ color: #2980b9;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size:20px;
+	font-weight: 800;
+}
+
+
+.block{
+     padding: 20px 70px 100px 60px;
+
+  font-size:22px;
+  font-weight:500;	
+	font-stretch:extra-expanded;
+  font-family: 'Encode Sans Condensed', sans-serif; 
+  color:white;
+  	
+}
+
+.aim{
+  background-image: url("images/macbook.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#team{
+	
+	background-image: url('./images/team.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+	
+	height:350px;
+}
+
+#testimonials{
+	padding-bottom:100px; 
+	background: url(images/testimonials-word-bubble-background.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+	font-weight: 470;
+}
+#testimonials > h1{
+	padding:40px;
+	 
+}
+
+#contactus{
+  background-image: url("images/map.jpg");
+
+color:white;
+    max-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutus{
+	background-color:white;
+	margin-right:0px;
+}
+
+#events{
+	font-size:20px; 
+	font-family: 'Encode Sans Condensed', sans-serif; 
+	background-color:white;
+}
+
+#events h1{
+	margin:50px;
+}
+
+#events p{
+	margin:50px 
+}
+
+
+
+a {
+  color: #4ab19a;
+}
+
+
+.align-center {
+  text-align: center;
+}
+
+footer{
+	background-color:black;
+	color:white;
+	padding:8px 0px 2px 0px;
+	font-family:'Encode Sans Condensed', sans-serif;
+	
+}
+
+
+/*slider effect for spreading awareness*/
+@media screen and (min-width: 480px) {
+    #slide{
+	
+	padding-top: 70px;
+	height:115px;
+	width:650px;
+	left:-650px;
+	position: absolute;
+	-webkit-animation: slide 0.8s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.7s forwards;
+    animation-delay: 1s;
+		
+	}
+	
+	.fa-users{
+		margin-top:280px
+	}
+		
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.fa-facebook-official{
+	color:blue;
+	background-color:white;
+	margin-left:4px;
+	
+	
+}
+
+.fa-instagram{
+	margin-left:4px;
+	color:white;
+	background-color:palevioletred;
+	
+}
+
+.fa-linkedin-square{
+	margin-left:4px;
+	color:white;
+	background-color:blue;
+}
+
+#team img {
+	margin: 50px 0px 0px 100px;
+}
+
+#team img:hover{
+	height:200px;
+}
+
+#team p{
+  	padding-left:30px;
+	color: azure;
+	margin-left:90px
+}
+
+.name{
+	font-size:20px;
+	color: azure;
+	margin-top:10px;
+}
+#services h1{
+    font-size: 4em;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+#services {
+   background: url("images/whitepaper.jpg") no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.service{
+    padding-right: 40px;
+    padding-left: 0;
+    font-size:20px; 
+	font-family: 'Encode Sans Condensed', sans-serif; 
+}
+.service p strong{
+    font-size: 22px;
+}
+.service h2{
+    color: #ce7604;
+    letter-spacing: 2px;
+    font-family: 'Archivo Black', sans-serif;
+}
+.heading{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0 0 20px;
+    border-bottom: 1px grey solid;
+    font-weight: normal;
+}
+.heading::before{
+    position: absolute;
+    bottom: -3px;
+    left: 50px;
+    width: 150px;
+    height: 5px;
+    content: "";
+    display: inline-block;
+    background-color: #914f00;
+}
+.service ul{
+    margin-top: 50px
+}
+.list li i{
+    padding-right: 8px;
+    font-size: 15px;
+    color: #914f00;  
+}
+ul.list1{
+    margin-top: 20px;
+}
+.service h3{
+    color: #ce7604;
+    letter-spacing: 2px;
+}
+
+.works h1{
+    color: #ce7604;
+    text-align: center;
+    letter-spacing: 2px;
+     font-family: 'Archivo Black', sans-serif;
+}
+.logo1{
+    padding-left: 0;
+    padding-top: 120px
+}
+.service1{
+    padding-left: 50px;
+}
+.coffer{
+    text-align: center;
+    padding-left: 20px;
+}
+.coffer .col-md-3{
+    width: 22.5%;
+    margin: 1%;
+    background: #fff;
+    min-height: 320px;
+    transition: 1s ease;
+}
+.coffer .col-md-3:hover{
+    height: 100%;
+    background: #d38313;
+}
+.coffer i{
+    padding-top: 38px;
+}
+@media (max-width: 900px){
+    .coffer .col-md-3{
+        width : 95%;
+    }
+}
+.partner h3{
+    text-align: center;
+    font-size: 3.5em;
+    color: #097c71;
+    padding: 50px 0;
+}
+.partner .companies{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.partner .companies marquee img{
+    width: 250px;
+    height: 100px;
+    border: 0px;
+    padding-left: 15px;
+    
+}
+.disclaimer{
+    padding-top: 50px;
+    border-top: 2px dotted black;
+    font-size: 25px;
+}
+.disclaimer p{
+    border: 1px solid black;
+    width: 50%;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.disclaimer strong{
+    font-size: 25px;
+    color: black;
+    padding-left: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.despara{
+    padding-top: 120px;
+}
+@media (max-width: 900px){
+    .partner .companies{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 900px){
+    .despara{
+        padding-top: 0;
+    }
+}
+#myCarousel{
+height: 400px; 
+}
+.timages{
+    padding-top: 90px;
+    padding-left: 90px;
+}
+.tpara{
+    padding-top: 50px;
+}
+.tpara p.speech{
+    padding-top: 0px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.names{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.righty{
+    width: 75%;
+    text-align: right;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.speaker img{
+    border-radius: 100%;
+}
+.working{
+    font-size: 26px;
+    text-align: right;
+    width: 75%;
+    font-family: 'Sedgwick Ave', cursive;
+}
+@media(max-width: 900px){
+    .timages{
+        
+        padding: 20px;
+        padding-left: 80px;
+    }
+    .tpara{
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 90%;
+        font-family: 'Sedgwick Ave', cursive;
+    }
+    .righty{
+        width: 90%;
+    }
+    #myCarousel {
+        height: 700px; 
+            }
+}
